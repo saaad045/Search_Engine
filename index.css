@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction:row-reverse;
+}
+h1{
+    font-size: 36px;
+    color: white;
+}
+.search-container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.footer-nav {
+    padding: 10px;
+}
+.footer-nav-2{
+    display: flex;
+    justify-content: space-between;
+}
